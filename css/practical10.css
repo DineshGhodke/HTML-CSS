@@ -1,0 +1,91 @@
+*
+{
+ padding: 0%;
+ margin: 0;
+ box-sizing: border-box;   
+}
+.container
+{
+    width: 60%;
+    min-height: 500px;
+    /* border: 2px solid #000; */
+    margin: auto;
+    margin-top: 10%;
+    background-color: rgb(242, 228, 228);
+    
+}
+
+
+.sidebar1
+{
+    width: 48%;
+    min-height: 470PX;
+    background-color:rgb(240, 9, 9) ;
+    /* border: 2px solid #000; */
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20%;
+    color: aliceblue;
+
+}
+.sidebar1 h3{
+margin-top: 15px;
+}
+.sidebar1 button{
+    width: 20%;
+    background-color:rgb(240, 9, 9) ;
+    margin-top: 15px;
+    color: aliceblue;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.sidebar1 button:hover{
+    background-color: blueviolet;
+}
+.social i {
+    padding: 5px;
+    font-size: large;
+}
+
+.sidebar2
+{
+    width: 48%;
+    min-height: 470PX;
+    background-color:azure ;
+    /* border: 2px solid #000; */
+    float: left;
+    text-align: center;
+    padding-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5%;
+
+}
+.sidebar2 input{
+padding-top: 5px;
+  margin-top: 10px;
+  width: 70%;
+  background-color:beige;
+  padding-left: 10px;
+  
+}
+.sidebar2 h1{
+      padding: 10%;  
+}
+
+.sidebar2 form{
+     text-align: center;
+}
+
+.sidebar2 button{
+   margin-top: 10px;
+   border-radius: 2px;
+   background-color:rgb(240, 9, 9) ;
+   color: aliceblue;
+ 
+}
+
