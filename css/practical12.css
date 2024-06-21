@@ -1,0 +1,203 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrapper 
+{
+    width: 60%;
+    min-height: 600px;
+    /* border: 2px solid #000; */
+    margin: auto;
+}
+.main-header-div{
+    width: 100%;
+    height:70px ;
+   display: flex;
+   /* background-image: linear-gradient(#000000,#e74c3c); */
+}
+.logo{
+    width: 20%;
+    /* border: 1px solid #000; */
+}
+.logo img{
+    width:30%;
+    margin-left: 40px;
+   
+}
+
+.menu{
+    width: 50%;
+    margin-left:150px;
+    /* border: 1px solid #000; */
+    padding-top: 20px;
+
+}
+.menu a {
+    width: 70%;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    color: #000;
+     
+}
+.menu  a:hover{
+    background-color: rgb(227, 21, 21);
+    color: black;
+    
+}
+.header{
+    background-image: url(/images/hotelbanner.jpg);
+    width: 100%;
+    min-height: 300px;
+   text-align: center;
+
+}
+.header h1 {
+    color: aliceblue;
+    padding-top: 100px;
+}
+.header p {
+    color: aliceblue;
+}
+.midalbar{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 15px;
+    display: flex;
+    /* border: 2px solid #000; */
+}
+.IMG1{
+    /* border: 2px solid #000; */
+    width: 33%;
+    position: relative;
+
+}
+.IMG1 img {
+    width:200px ;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+  
+}
+.IMG1 {
+    text-align: center;
+}
+
+.IMG2{
+    /* border: 2px solid #000; */
+    width: 33%;
+}
+.IMG2 img {
+    width:200px ;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 10px;
+    /* border: 1px solid #000; */
+}
+.IMG2 {
+    text-align: center;
+}
+.IMG3{
+    /* border: 2px solid #000; */
+    width: 33%;
+}
+.IMG3 img {
+    width:200px ;
+    height: 200px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.IMG3 {
+    text-align: center;
+}
+.photoGallery{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+.photoGallery img
+{
+    width: 160px;
+    height: 120px;
+    padding: 5px;
+  
+}
+.name{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid blue; */
+    background-color: rgb(172, 137, 137);
+}
+.name .a{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+.name .footer {
+    width:45% ;
+    height: 250px;
+    float: left;
+    /* border: 1px solid #000; */
+    padding-left:100px;
+
+    
+}
+.name .b{
+    width:45% ;
+    height: 250px;
+    float: left;
+    /* border: 1px solid #000; */
+    padding-top: 5px;
+
+}
+.b p{
+    text-align: justify;
+    padding-top: 10px;
+}
+.footer input{
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+
+
+ }
+ .footer input[type=email]{
+    height: 60px;
+ }
+ .footer input[type=button]{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: aliceblue;
+ }
+ /* .message input{
+    padding: 10px;
+ }
+ .footer button{
+    padding: 5px;
+    margin-top: px;
+ } */
+
+/* .footer
+    display: flex;
+}
+.footer p{
+    text-align: center;
+}
+ input{
+   
+    display: flex;
+} 
+.footer h3{
+    margin-left: 25px;
+}
+
+.footer form {
+    margin-left: 35px;
+    /* margin-top: 15px; */
+} */
